@@ -21,7 +21,7 @@ Carregar a imagem para uma matriz. A matriz de saída é uma variável que possu
 % Load image to a variable.
 img = imread('../figs/lena_color_512.tif');
 ```
-**Importante:** tanto o MATLAB e Octave realizam cálculos matriciais. Observe o tamnho da variável de saída (matriz *n*-dimensional). 
+**Importante:**o MATLAB e Octave realizam cálculos matriciais. Observe o tamnho da variável de saída (matriz *n*-dimensional). 
 
 **Funções úteis:**
 + `size` - retorna tamanho da variável.
@@ -35,6 +35,21 @@ img = imread('../figs/lena_color_512.tif');
 > 1. `doc` no terminal interno.
 > 2. [https://www.mathworks.com/help/matlab/](Documentação online).
 > 3. Chamando o comando `help` na função que deseja saber como funciona.
+
+### Função `ìmshow` e `image`
+
+Não há diferenças tangíveis, use a que for mais conveniente.
+
+
+```matlab
+figure;
+image(img)
+```
+
+**Funções úteis:**
++ `figure` - cria instâncias adicionais para visualizar a imagem. Chame sempre antes de chamar `imshow` ou `image`
++ `subplot` - para exibir imagens em formato de grade (dispostas ao lado ou abaixo em uma mesma figura).
+
 
 
 
@@ -56,3 +71,8 @@ figure;
 imshow(img)
 
 ```
+
+
+# Referências
+
+[https://www.mathworks.com/help/matlab/ref/rgb2gray.html]

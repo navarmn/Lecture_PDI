@@ -11,7 +11,7 @@ close all
 % Load image to a variable.
 [img, map] = imread('../figs/lena_color_512.tif');
 
-%% Show images in two ways:
+% Show images in two ways:
 figure;
 image(img)
 
@@ -36,5 +36,4 @@ end
 
 %% Convert image to Grayscale
 
-figure;
-imshow(rgb2gray(img))
+
