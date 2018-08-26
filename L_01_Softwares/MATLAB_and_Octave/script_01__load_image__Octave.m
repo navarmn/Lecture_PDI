@@ -11,7 +11,7 @@ close all
 % Load image to a variable.
 [img, map] = imread('../figs/lena_color_512.tif');
 
-% Show images in two ways:
+%% Show images in two ways:
 figure;
 image(img)
 
@@ -23,17 +23,16 @@ imshow(img)
 [~, ~, channels] = size(img)
 
 c = {'R', 'G', 'B'};
-
-figure;
+figure(3)
 
 for k=1:channels
-
+    
     subplot(1,3,k)
     imshow(img(:,:,k))
     title(c{k}, 'FontSize', 20)
-
 end
 
 %% Convert image to Grayscale
 
-
+figure(4);
+imshow(rgb2gray(img))

@@ -24,17 +24,15 @@ imshow(img)
 
 c = {'R', 'G', 'B'};
 
-figure;
-
 for k=1:channels
-
+    
+    figure(3)
     subplot(1,3,k)
     imshow(img(:,:,k))
     title(c{k}, 'FontSize', 20)
-
 end
 
 %% Convert image to Grayscale
 
-figure;
+figure(4);
 imshow(rgb2gray(img))

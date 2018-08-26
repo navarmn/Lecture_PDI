@@ -5,11 +5,19 @@ O *Octave* é distribuído de forma livre e pode ser feito download [aqui](https
 
 A similaridade entre os programas é tanta que as principais funções internas de ambos os softwares são praticamente intercambiáveis. 
 
+#### Importante
+
+> O Octave por padrão não veem com a biblioteca de processamento de imagem instaladas. Elas devem ser instaladas após o Octave. A biblioteca para processamento de imagens está disponível [aqui](https://octave.sourceforge.io/image/index.html).
+
+> Como instalar bibliotecas do Octave no [Windows](https://octave.org/doc/v4.2.2/Installing-and-Removing-Packages.html) e [Linux](https://askubuntu.com/questions/685038/how-can-i-install-a-package-from-octave-forge).
+
+> Lista de [todas as bibliotecas do Octave](https://octave.sourceforge.io/packages.php).
+
 As simulações executadas na aula serão feitas no MATLAB, e as funções e scripts equivalente serão exibidos no Octave.
 
 As imagens utilizadas para as simulações estarão na pasta 
 
-## Carregar e exibir imagem:
+## Carregar, exibir imagem e converter entre tipos:
 
 O [script 01](script_01__load_image.m) contém as descrições exibidas a seguir.
 
@@ -43,34 +51,42 @@ Não há diferenças tangíveis, use a que for mais conveniente.
 
 ```matlab
 figure;
-image(img)
+imshow(img)
 ```
 
 **Funções úteis:**
 + `figure` - cria instâncias adicionais para visualizar a imagem. Chame sempre antes de chamar `imshow` ou `image`
 + `subplot` - para exibir imagens em formato de grade (dispostas ao lado ou abaixo em uma mesma figura).
 
-
-
+### Função `rgb2gray`
 
 ```matlab
-clc
-clear all
-close all
-
-%% Load image:
-
-% Load image to a variable.
-img = imread('../figs/lena_color_512.tif');
-
-% Show images in two ways:
-figure;
-image(img)
-
-figure;
-imshow(img)
-
+rgb2gray(img)
 ```
+
+### Outras funções básicas:
+
+**Saída**
+
++ `imwrite` - grava uma imagem
++ `imagesc` - grava uma imagem
++ `colorbar` - grava uma imagem
++ `getimage` - grava uma imagem
++ `truesize` - grava uma imagem
+
+
+
+**Outras conversões:**
+
++ `gray2ind`
++ `im2bw`
++ `im2double`
++ `im2uint8`
++ `im2uint16`
++ `ind2gray`
++ `mat2gray`
++ `rgb2gray` 
++ `rgb2ind`
 
 
 # Referências
