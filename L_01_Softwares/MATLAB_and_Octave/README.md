@@ -11,6 +11,15 @@ As imagens utilizadas para as simulações estarão na pasta
 
 ## Carregar imagens:
 
+##### Dica
+> Sempre usar o *help* do MATLAB ou Octave.
+
+> Pode ser chamado da seguinte forma:
+
+> 1. `doc` no terminal interno.
+> 2. [https://www.mathworks.com/help/matlab/](Documentação online).
+> 3. Chamando o comando `help` na função que deseja saber como funciona.
+
 ```javascript
 var s = "JavaScript syntax highlighting";
 alert(s);
