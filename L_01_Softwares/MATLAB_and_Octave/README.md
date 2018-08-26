@@ -21,6 +21,20 @@ As imagens utilizadas para as simulações estarão na pasta
 > 3. Chamando o comando `help` na função que deseja saber como funciona.
 
 ```matlab
-var s = "JavaScript syntax highlighting";
-alert(s);
+clc
+clear all
+close all
+
+%% Load image:
+
+% Load image to a variable.
+img = imread('../figs/lena_color_512.tif');
+
+% Show images in two ways:
+figure;
+image(img)
+
+figure;
+imshow(img)
+
 ```
