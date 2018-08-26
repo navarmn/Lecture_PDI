@@ -29,7 +29,7 @@ Carregar a imagem para uma matriz. A matriz de saída é uma variável que possu
 % Load image to a variable.
 img = imread('../figs/lena_color_512.tif');
 ```
-**Importante:**o MATLAB e Octave realizam cálculos matriciais. Observe o tamnho da variável de saída (matriz *n*-dimensional). 
+**Importante:** o MATLAB e Octave realizam cálculos matriciais. Observe o tamanho da variável de saída (matriz *n*-dimensional). 
 
 **Funções úteis:**
 + `size` - retorna tamanho da variável.
