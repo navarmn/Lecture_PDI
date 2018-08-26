@@ -5,7 +5,7 @@ Essa aula tem como objetivo exibir as principais ferramentas utilizadas para a d
 
 ## Softwares:
 
-As três principais ferramentas para a disciplina são: Matlab,  Octave e [Python](Python/README.md) 
+As três principais ferramentas para a disciplina são: Matlab,  Octave e [Python](Python) 
 
 
 
