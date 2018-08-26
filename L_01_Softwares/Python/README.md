@@ -7,20 +7,20 @@ Pode ser usada para uma diversa gama de aplicações e é totalmente escalável.
 **Vantagem**
 + Trabalhar e se familiarizar com a [linguagem mais bem paga](https://qz.com/298635/these-programming-languages-will-earn-you-the-most-money/) de 2018 (salário médio de $116.128 por ano)
 + Full review em dos dados de [QZ](https://qz.com/298635/these-programming-languages-will-earn-you-the-most-money/) e [TIOBE](https://www.tiobe.com/tiobe-index/) em: [Link 1](https://medium.com/@ChallengeRocket/top-10-of-programming-languages-with-the-highest-salaries-in-2017-4390f468256e), [Link 2](https://www.youtube.com/watch?v=f3EbDbm8XqY&t=515s).
-+ Transformar os seu projeto da disciplina em um produto e apresentar no seu portfolio (Github).
++ Transformar os seu projeto da disciplina em um produto e apresentar no seu portfolio (Github) :).
 
 ## Instalação
 
-Se você for utilizar python para desenvolver seus projetos, recomendo a instalação da distribuição Anaconda. Essa é uma distribuição cientifica do python que já vem default com ~~quase~~ todos os pacotes necessários para começar a programa. Faça o download [aqui](https://www.anaconda.com/download/).
+Se você for utilizar python para desenvolver seus projetos, recomendo a instalação da distribuição Anaconda. Essa é uma distribuição cientifica do python que já vem por default com ~~quase~~ todos os pacotes necessários para começar a programar. Faça o download [aqui](https://www.anaconda.com/download/).
 
 **Importante**:
 > Aceite o python do anaconda como principal (**base**). Isso será perguntando no início da instalação.
 
-Para transformar o python um ambiente para processamento de imagens deve-se utilizar a biblioteca [OpenCV](https://opencv.org/)
+Para transformar o python um ambiente para processamento de imagens deve-se utilizar a biblioteca [OpenCV](https://opencv.org/).
 
-**Não instale a OpenCV pelo link: https://docs.opencv.org/master/da/df6/tutorial_py_table_of_contents_setup.html**, pois irá instalar a biblioteca no Python 2 (se você tiver.)
+**NÃO instale a OpenCV pelo link: https://docs.opencv.org/master/da/df6/tutorial_py_table_of_contents_setup.html**, pois irá instalar a biblioteca no Python 2 (se você tiver.)
 
-Para instalar a OpenCV 3.XX no Python 3, instale a `opencv-python`, seguindo as [instruções](https://pypi.org/project/opencv-python/).
+Para instalar a OpenCV 3.xx no Python 3, instale a `opencv-python`, seguindo as [instruções](https://pypi.org/project/opencv-python/).
 
 
 
