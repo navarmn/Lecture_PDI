@@ -44,7 +44,7 @@ img = imread('../figs/lena_color_512.tif');
 > 2. [https://www.mathworks.com/help/matlab/](Documentação online).
 > 3. Chamando o comando `help` na função que deseja saber como funciona.
 
-### Função `ìmshow` e `image`
+### Função `imshow` e `image`
 
 Não há diferenças tangíveis, use a que for mais conveniente.
 
@@ -69,10 +69,10 @@ rgb2gray(img)
 **Saída**
 
 + `imwrite` - grava uma imagem
-+ `imagesc` - grava uma imagem
-+ `colorbar` - grava uma imagem
-+ `getimage` - grava uma imagem
-+ `truesize` - grava uma imagem
++ `imagesc` - re-escala e exibe
++ `colorbar` - coloca um eixo de cores
++ `getimage` - pega a imagem do eixo
++ `truesize` - mostra em tamanho real
 
 
 
@@ -88,6 +88,15 @@ rgb2gray(img)
 + `rgb2gray` 
 + `rgb2ind`
 
+**Ferramentas interessantes**
+
++ `imtool`
++ `conv2`
+
+## Toolbox
+
+[*Image Processing Toolbox*](https://www.mathworks.com/help/images/)
 
 # Referências
-<a href="https://www.mathworks.com/help/matlab/ref/rgb2gray.html" target="_blank"></a>
+
+https://www.mathworks.com/help/images/
