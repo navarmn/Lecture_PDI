@@ -74,5 +74,4 @@ imshow(img)
 
 
 # Referências
-
-[https://www.mathworks.com/help/matlab/ref/rgb2gray.html]
+<a href="https://www.mathworks.com/help/matlab/ref/rgb2gray.html" target="_blank"></a>
