@@ -20,7 +20,7 @@ As imagens utilizadas para as simulações estarão na pasta
 > 2. [https://www.mathworks.com/help/matlab/](Documentação online).
 > 3. Chamando o comando `help` na função que deseja saber como funciona.
 
-```javascript
+```matlab
 var s = "JavaScript syntax highlighting";
 alert(s);
 ```

@@ -8,6 +8,14 @@ close all
 
 %% Load image:
 
-[img, map] - imread('')
+% Load image to a variable.
+img = imread('../figs/lena_color_512.tif');
+
+% Show images in two ways:
+figure;
+image(img)
+
+figure;
+imshow(img)
 
 
