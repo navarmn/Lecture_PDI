@@ -9,9 +9,18 @@ As simulações executadas na aula serão feitas no MATLAB, e as funções e scr
 
 As imagens utilizadas para as simulações estarão na pasta 
 
-## Carregar imagens:
+## Carregar e exibir imagem:
 
-##### Dica
+O [script](script_01__load_image.m) contém as descrições exibidas a seguir.
+
+### Função `imread`
+ 
+ uaeuhea
+
++ `imread` - carregar a imagem para uma matriz.
++ 
+
+#### Dica
 > Sempre usar o *help* do MATLAB ou Octave.
 
 > Pode ser chamado da seguinte forma:
@@ -19,6 +28,8 @@ As imagens utilizadas para as simulações estarão na pasta
 > 1. `doc` no terminal interno.
 > 2. [https://www.mathworks.com/help/matlab/](Documentação online).
 > 3. Chamando o comando `help` na função que deseja saber como funciona.
+
+
 
 ```matlab
 clc
