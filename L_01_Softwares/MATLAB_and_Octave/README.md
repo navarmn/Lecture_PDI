@@ -15,7 +15,7 @@ A similaridade entre os programas é tanta que as principais funções internas 
 
 As simulações executadas na aula serão feitas no MATLAB, e as funções e scripts equivalente serão exibidos no Octave.
 
-As imagens utilizadas para as simulações estarão na pasta 
+As imagens utilizadas para as simulações estarão na pasta de [Figuras](../figs)
 
 ## Carregar, exibir imagem e converter entre tipos:
 
