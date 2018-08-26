@@ -11,14 +11,21 @@ As imagens utilizadas para as simulações estarão na pasta
 
 ## Carregar e exibir imagem:
 
-O [script](script_01__load_image.m) contém as descrições exibidas a seguir.
+O [script 01](script_01__load_image.m) contém as descrições exibidas a seguir.
 
 ### Função `imread`
  
- uaeuhea
+Carregar a imagem para uma matriz. A matriz de saída é uma variável que possui valores discretizados de acordo com os níveis de cinza da imagem. Exemplo:
 
-+ `imread` - carregar a imagem para uma matriz.
-+ 
+```matlab
+% Load image to a variable.
+img = imread('../figs/lena_color_512.tif');
+```
+**Importante:** tanto o MATLAB e Octave realizam cálculos matriciais. Observe o tamnho da variável de saída (matriz *n*-dimensional). 
+
+**Funções úteis:**
++ `size` - retorna tamanho da variável.
+
 
 #### Dica
 > Sempre usar o *help* do MATLAB ou Octave.
