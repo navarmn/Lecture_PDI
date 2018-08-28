@@ -9,7 +9,11 @@ As três principais ferramentas para a disciplina são: [MATLAB](MATLAB_and_Octa
 
 ## Slides:
 
-Os slides de apoio apresentados em sala estão disponiveis em: 
+Os slides de apoio apresentados em sala estão disponiveis [aqui](Slides_L_01_Howto.pptx).
+
+## Material Complementar:
+
+Na pasta [Complementar](Complementar) estão os materiais de apoio para essa disciplina (i.e. resolução de trablahos e relatórios).
 
 
 
