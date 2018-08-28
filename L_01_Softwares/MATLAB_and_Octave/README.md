@@ -64,6 +64,16 @@ imshow(img)
 rgb2gray(img)
 ```
 
+## Histograma
+
+Para essa parte, use o [script 02](script_02__histogram.m), pois conterá as simulações exibidas a seguir.
+
+### Função `imhist`
+
+```matlab
+imhist(img)
+```
+
 ### Outras funções básicas:
 
 **Saída**

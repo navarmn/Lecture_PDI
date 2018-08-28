@@ -78,6 +78,28 @@ plt.imshow(img)
 
 ``` 
 
+## Histograma
+
+Para essa parte, use o [notebook 02](notebook_02__histogram.ipynb), pois conterá as simulações exibidas a seguir.
+
+[como fazer com a OpenCV](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_histograms/py_histogram_begins/py_histogram_begins.html?highlight=hist)
+
+[Algumas plotagens em imagens](https://matplotlib.org/users/image_tutorial.html)
+
+
+### Outras funções básicas:
+
+**Arrays**
+
++ `np.shape` - grava uma imagem
++ `imagesc` - re-escala e exibe
++ `colorbar` - coloca um eixo de cores
++ `getimage` - pega a imagem do eixo
++ `truesize` - mostra em tamanho real
+
+
+
+
 ## Documentação
 
 ### OpenCV
