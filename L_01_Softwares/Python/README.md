@@ -26,13 +26,13 @@ Para instalar a OpenCV 3.xx no Python 3, instale a `opencv-python`, seguindo as 
 
 Há diversas opções. Cada uma possui vantagens e desvantagens. A escolha é muito pessoal e cabe ao programar testar e identificar qual lhe convém melhor. As principais opções são:
 
-+ [Spyder](https://pythonhosted.org/spyder/index.html): já vem com a Anaconda. Para usar abra o **terminal**, ou **cmd** e digite: `spyder`.
-
-> É uma tentativa de criar uma ambiente do python parecido com o Matlab e Octave.
-
 + [JupyterLab ou Jupyter Notebook](http://jupyter.org/): já vem com a Anaconda. Para usar abra o **terminal**, ou **cmd** e digite: `jupyter lab` ou `jupyter notebook`.
 
 > É de longe a opção mais escolhida por cientista de dados, pois oferece um ambiente iterativo para criar progrmas na forma de relatório e ótimo para exibir imagens e dados.
+
++ [Spyder](https://pythonhosted.org/spyder/index.html): já vem com a Anaconda. Para usar abra o **terminal**, ou **cmd** e digite: `spyder`.
+
+> É uma tentativa de criar uma ambiente do python parecido com o Matlab e Octave.
 
 + [Pycharm](https://www.jetbrains.com/pycharm/): Deve ser instalada depois do python.
 > IDE muito boa, com todos os recursos necessários já na versão free. Possui ferramentas para debug, visualização de variáveis, objetos, etc. Suporte para git e [ambientes virtuais](https://realpython.com/python-virtual-environments-a-primer/).
@@ -40,22 +40,23 @@ Há diversas opções. Cada uma possui vantagens e desvantagens. A escolha é mu
 + Editores diversos: [Sublime](https://realpython.com/setting-up-sublime-text-3-for-full-stack-python-development/), [Atom](https://stackoverflow.com/questions/35546627/how-to-configure-atom-to-run-python3-scripts), [Visual Code](https://code.visualstudio.com/docs/languages/python).
 
 
-
-#### Importante
-
-> O Octave por padrão não veem com a biblioteca de processamento de imagem instaladas. Elas devem ser instaladas após o Octave. A biblioteca para processamento de imagens está disponível [aqui](https://octave.sourceforge.io/image/index.html).
-
-> Como instalar bibliotecas do Octave no [Windows](https://octave.org/doc/v4.2.2/Installing-and-Removing-Packages.html) e [Linux](https://askubuntu.com/questions/685038/how-can-i-install-a-package-from-octave-forge).
-
-> Lista de [todas as bibliotecas do Octave](https://octave.sourceforge.io/packages.php).
-
-As simulações executadas na aula serão feitas no MATLAB, e as funções e scripts equivalente serão exibidos no Octave.
+As simulações executadas na aula serão feitas no jupyter notebook, e os scripts estão na mesma pasta desse material.
 
 As imagens utilizadas para as simulações estarão na pasta de [Figuras](../figs)
 
 ## Carregar, exibir imagem e converter entre tipos:
 
-O [script 01](script_01__load_image.m) contém as descrições exibidas a seguir.
+O [notebook 01](notebook_01__how_to.ipynb) contém as descrições exibidas a seguir.
+
+### Para iniciar
+
+Antes de iniciar qualquer script em python deve-se importar os módulos nécessários. Para os primeiros trabalhos de pdi os principais serão: OpenCV, Numpy e Matplotlib. Devem ser chamados da seguinte forma:
+
+```python
+import cv2 #OpenCV
+import numpy as np #biblioteca para trablahar com arrays de forme eficiente
+import matplotlib.pyplot as plt # biblioteca para plotar gráficos
+``` 
 
 
 ## Documentação
