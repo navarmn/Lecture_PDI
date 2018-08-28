@@ -58,6 +58,25 @@ import numpy as np #biblioteca para trablahar com arrays de forme eficiente
 import matplotlib.pyplot as plt # biblioteca para plotar gráficos
 ``` 
 
+#### Dica
+> Sempre procurar a documentação das bibliotecas.
+> + OpenCV: [aqui](https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_gui/py_image_display/py_image_display.html).
+> + Numpy: [aqui](https://docs.scipy.org/doc/numpy/user/quickstart.html).
+> + Matplotlib: [aqui](https://matplotlib.org/tutorials/index.html).
+
+### Função `cv2.imread`
+
+```python
+img = cv2.imread('../figs/lena_color_256.tif')
+``` 
+
+### Função `cv2.imshow` e `plt.imshow`
+
+```python
+cv2.imshow('Image', img)
+plt.imshow(img)
+
+``` 
 
 ## Documentação
 
