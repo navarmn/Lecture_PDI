@@ -22,6 +22,13 @@ Para transformar o python um ambiente para processamento de imagens deve-se util
 
 Para instalar a OpenCV 3.xx no Python 3, instale a `opencv-python`, seguindo as [instruções](https://pypi.org/project/opencv-python/).
 
+## IDE - ambiente para simulaçao
+
+Há diversas opções. Cada uma possui vantagens e desvantagens. A escolha é muito pessoal e cabe ao programar testar e identificar qual lhe convém melhor. As principais opções são:
+
++ [Spyder](https://pythonhosted.org/spyder/index.html): já vem com a Anaconda. Para usar abra o **terminal**, ou **cmd** e digite: `spyder`.
+..+ É uma tentativa de criar uma ambiente do python parecido com o Matlab e Octave.
+
 
 
 
