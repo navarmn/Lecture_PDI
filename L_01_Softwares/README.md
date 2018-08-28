@@ -13,7 +13,7 @@ Os slides de apoio apresentados em sala estão disponiveis [aqui](Slides_L_01_Ho
 
 ## Material Complementar:
 
-Na pasta [Complementar](Complementar) estão os materiais de apoio para essa disciplina (i.e. resolução de trablahos e relatórios).
+Na pasta [Complementar](../Complementar) estão os materiais de apoio para essa disciplina (i.e. resolução de trablahos e relatórios).
 
 
 
