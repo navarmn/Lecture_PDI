@@ -91,11 +91,7 @@ Para essa parte, use o [notebook 02](notebook_02__histogram.ipynb), pois conter√
 
 **Arrays**
 
-+ `np.shape` - grava uma imagem
-+ `imagesc` - re-escala e exibe
-+ `colorbar` - coloca um eixo de cores
-+ `getimage` - pega a imagem do eixo
-+ `truesize` - mostra em tamanho real
++ `np.shape` - tamanho da array numpy.
 
 
 
